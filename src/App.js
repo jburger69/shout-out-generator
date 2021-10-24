@@ -3,6 +3,7 @@ import inspirationalMessages from './Data';
 import InspirationalMessage from "./components/InspirationalMessage";
 
 
+
 class App extends React.Component {
 
 
@@ -31,7 +32,7 @@ class App extends React.Component {
   render () {
     return (
       <div className="App">
-        <h1 className='center'>Inspirational Message Generator</h1>
+        <h1 className='center'>Inspirational Message Hub</h1>
         <InspirationalMessage generateRandomMessage={this.generateRandomMessage}
           inspirationalMessage={this.state}/>
       </div>

@@ -22,6 +22,9 @@ code {
 h1 {
   padding: 50px;
   color: white;
+  font-family: Georgia, sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
 }
 
 h5 {
@@ -41,8 +44,8 @@ h5 {
   display: inline-block;
   font-size: 12px;
 }
-
-/* .btn_link::after {
+/* 
+.btn_link::after {
   position: absolute;
   top: 25px;
   left: 0;
